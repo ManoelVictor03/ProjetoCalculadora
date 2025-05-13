@@ -1,0 +1,63 @@
+#centralizador {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+  align-items: start;
+  background-color: #ffffff62;
+  font-family: Arial, sans-serif;
+}
+
+#titulo {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.Calculadora {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(34, 33, 33, 0.695);
+  width: 334px;
+}
+
+#display {
+  width: 93%;
+  height: 50px;
+  text-align: right;
+  font-size: 24px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b2a5a5;
+}
+
+button:active {
+  background-color: #b0b0b000;
+}
+
+.Calculadora .btn,
+.Calculadora .bnt {
+  display: inline-block;
+}
